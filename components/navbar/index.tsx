@@ -8,7 +8,7 @@ import { MobileNavigation } from "./mobile-navigation";
 
 const Navbar = () => {
     return (
-        <nav className="w-full border-b border-gray-200 bg-white py-2 px-4 fixed top-0 left-0">
+        <nav className="w-full border-b border-gray-200 bg-white py-4 px-4 fixed top-0 left-0 z-20">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 <div className="flex-shrink-0">
                     <Link href="/" className="flex items-center">
@@ -47,5 +47,4 @@ const Navbar = () => {
     );
 };
 
-
-export default Navbar;
+export default Navbar
